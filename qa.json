@@ -3,7 +3,7 @@
   "name": "FoodAllergyIG",
   "package-id": "xxexample.fhir.food-Allergy",
   "ig-ver": "0.1.0-test",
-  "date": "Sun, 27 Feb, 2022 18:52:24 +0000",
+  "date": "Sun, 27 Feb, 2022 18:57:49 +0000",
   "errs": 1,
   "warnings": 1,
   "hints": 0,
