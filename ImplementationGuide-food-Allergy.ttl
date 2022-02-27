@@ -5,21 +5,21 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig> a fhir:ImplementationGuide;
+<http://xxsomewhere.org/fhir/food-Allergy/ImplementationGuide/food-Allergy> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "xxexample.fhir.uv.myig"];
+  fhir:Resource.id [ fhir:value "food-Allergy"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FoodAllergyIG</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/food-Allergy/ImplementationGuide/food-Allergy</pre><div><p>Test IG about food allergies</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"];
+  fhir:ImplementationGuide.url [ fhir:value "http://xxsomewhere.org/fhir/food-Allergy/ImplementationGuide/food-Allergy"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0-test"];
-  fhir:ImplementationGuide.name [ fhir:value "XXYourComputableMyIGNameHere"];
-  fhir:ImplementationGuide.title [ fhir:value "xxYour User Friendly Name for MyIG Here"];
+  fhir:ImplementationGuide.name [ fhir:value "FoodAllergyIG"];
+  fhir:ImplementationGuide.title [ fhir:value "Food Allergies Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-27T17:44:19+00:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-27T18:52:24+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "myself"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -28,7 +28,7 @@
        fhir:ContactPoint.value [ fhir:value "http://xxhl7.org/Special/committees/[something]" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "xxxA brief description of what this IG is about "];
+  fhir:ImplementationGuide.description [ fhir:value "Test IG about food allergies"];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -37,7 +37,7 @@
        fhir:Coding.code [ fhir:value "001" ]
      ]
   ];
-  fhir:ImplementationGuide.packageId [ fhir:value "xxexample.fhir.uv.myig"];
+  fhir:ImplementationGuide.packageId [ fhir:value "xxexample.fhir.food-Allergy"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -185,7 +185,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://xxsomewhere.org/fhir/myig/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://xxsomewhere.org/fhir/food-Allergy/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -418,7 +418,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig.ttl> a owl:Ontology;
+<http://xxsomewhere.org/fhir/food-Allergy/ImplementationGuide/food-Allergy.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
