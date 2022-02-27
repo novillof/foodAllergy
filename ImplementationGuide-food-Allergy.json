@@ -11,7 +11,7 @@
   "title": "Food Allergies FHIR Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-02-27T18:57:49+00:00",
+  "date": "2022-02-27T22:29:00+00:00",
   "publisher": "myself",
   "contact": [
     {
@@ -363,6 +363,11 @@
           "nameUrl": "index.html",
           "title": "MyIG Home Page",
           "generation": "html"
+        },
+        {
+          "nameUrl": "intro.html",
+          "title": "Food allergy - Introduction",
+          "generation": "markdown"
         },
         {
           "nameUrl": "changes.html",
