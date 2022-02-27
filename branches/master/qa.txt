@@ -1,20 +1,23 @@
 ﻿FoodAllergyIG : Validation Results
 =========================================
 
-err = 7, warn = 3, info = 0
+err = 8, warn = 3, info = 0
 IG Publisher Version: 1.1.108
-Generated Sun Feb 27 22:59:28 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.food-Allergy#0.1.0-test (canonical = http://xxsomewhere.org/fhir/food-Allergy)
- Build Errors : 0 / 1 / 0
- /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 2 / 1 / 1
+Generated Sun Feb 27 23:28:47 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.food-Allergy#0.1.0-test (canonical = http://xxsomewhere.org/fhir/food-Allergy)
+ Build Errors : 1 / 2 / 0
+ /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 3 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS : 2 / 0 / 1
  /github/workspace/input/food-allergy : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be xxexample.fhir.food-Allergy
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource AllergyIntolerance/MyPeanutAllergy.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
 == fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
 ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergy'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy.json - the canonical URL (http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergy) does not match the URL (http://example.com/fhir/example/StructureDefinition/FoodAllergy)
-WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergy'): The Implementation Guide contains no examples for this profile
 ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy: URL Mismatch http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergy vs http://example.com/fhir/example/StructureDefinition/FoodAllergy
 == fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
 ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergyModel'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel.json - the canonical URL (http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergyModel) does not match the URL (http://example.com/fhir/example/StructureDefinition/FoodAllergyModel)
