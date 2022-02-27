@@ -3,7 +3,7 @@
 
 err = 1, warn = 1, info = 0
 IG Publisher Version: 1.1.108
-Generated Sun Feb 27 18:57:59 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.food-Allergy#0.1.0-test (canonical = http://xxsomewhere.org/fhir/food-Allergy)
+Generated Sun Feb 27 22:29:11 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.food-Allergy#0.1.0-test (canonical = http://xxsomewhere.org/fhir/food-Allergy)
  Build Errors : 0 / 1 / 0
  /github/workspace/input/food-allergy : 1 / 0 / 1
 </table>
