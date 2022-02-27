@@ -1,15 +1,20 @@
 ﻿FoodAllergyIG : Validation Results
 =========================================
 
-err = 3, warn = 2, info = 0
+err = 5, warn = 3, info = 0
 IG Publisher Version: 1.1.108
-Generated Sun Feb 27 22:36:00 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.food-Allergy#0.1.0-test (canonical = http://xxsomewhere.org/fhir/food-Allergy)
+Generated Sun Feb 27 22:48:39 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.food-Allergy#0.1.0-test (canonical = http://xxsomewhere.org/fhir/food-Allergy)
  Build Errors : 0 / 1 / 0
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 3 / 1 / 1
  /github/workspace/input/food-allergy : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be xxexample.fhir.food-Allergy
+== fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergy'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy.json - the canonical URL (http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergy) does not match the URL (http://example.com/fhir/example/StructureDefinition/FoodAllergy)
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergy'): The Implementation Guide contains no examples for this profile
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy: URL Mismatch http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergy vs http://example.com/fhir/example/StructureDefinition/FoodAllergy
 == fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
 ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergyModel'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel.json - the canonical URL (http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergyModel) does not match the URL (http://example.com/fhir/example/StructureDefinition/FoodAllergyModel)
 ERROR: StructureDefinition/FoodAllergyModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve

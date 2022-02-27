@@ -1,5 +1,12 @@
 [
   {
+    "id": "FoodAllergy",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/FoodAllergy",
+    "version": "0.1.0-test",
+    "name": "FoodAllergy"
+  },
+  {
     "id": "FoodAllergyModel",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/FoodAllergyModel",
