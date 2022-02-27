@@ -14,6 +14,13 @@
     "name": "FoodAllergyModel"
   },
   {
+    "id": "FoodAllergyVS",
+    "type": "ValueSet",
+    "url": "http://example.com/fhir/example/ValueSet/FoodAllergyVS",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyVS"
+  },
+  {
     "id": "food-Allergy",
     "type": "ImplementationGuide",
     "url": "http://xxsomewhere.org/fhir/food-Allergy/ImplementationGuide/food-Allergy",
