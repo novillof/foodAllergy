@@ -12,7 +12,7 @@
   <title value="Food Allergies FHIR Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-02-27T22:59:15+00:00"/>
+  <date value="2022-02-27T23:28:32+00:00"/>
   <publisher value="myself"/>
   <contact>
     <telecom>
@@ -232,6 +232,14 @@
       </reference>
       <name value="Food Allergy Logical Model"/>
       <description value="Food Allergy information model"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AllergyIntolerance"/>
+      </extension>
+      <reference>
+        <reference value="AllergyIntolerance/MyPeanutAllergy"/>
+      </reference>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -1,7 +1,3 @@
-<!-- get modelType -->
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -53,8 +49,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"4.4"}
+    h3,h4,h5,h6{--heading-prefix:"4.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -142,7 +138,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b></b></li>
           
         </ul>
       </div>  <!-- /container -->
@@ -154,16 +150,10 @@
         <div class="row">
           <div class="inner-wrapper">
 
-
-<div style="counter-reset: section 10" class="col-12">
+<div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Food Allergies FHIR Implementation Guide - Local Development build (v0.1.0-test). See the <a href="http://xxsomewhere.org/fhir/food-Allergy/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
   
-
-
-
-
-
-
 
 
 
@@ -172,62 +162,47 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="StructureDefinition-FoodAllergy.html">Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
-
-  <li>
-    <a href="StructureDefinition-FoodAllergy-definitions.html">Detailed Descriptions</a>
-  </li>
-
-
-
   
     <li>
-      <a href="StructureDefinition-FoodAllergy-mappings.html">Mappings</a>
-    </li>
-  
-
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-FoodAllergy.profile.xml.html">XML</a>
+      <a href="AllergyIntolerance-MyPeanutAllergy.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-FoodAllergy.profile.json.html">JSON</a>
+      <a href="AllergyIntolerance-MyPeanutAllergy.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-FoodAllergy.profile.ttl.html">TTL</a>
+      <a href="AllergyIntolerance-MyPeanutAllergy.ttl.html">TTL</a>
     </li>
   
+
 
 
 </ul>
 
 
   <a name="root"> </a>
-  <h2 id="root">Resource Profile: FoodAllergy - Change History</h2>
+
+
+  <h2 id="root">AllergyIntolerance: </h2>
+
   <table class="colsi">
     <tr>
 
       <td colspan="2">
         
-          Active
           
-            as of 2022-02-27
           
         
       </td>
@@ -235,12 +210,25 @@
     </tr>
   </table>
 
-  <p>Changes in the FoodAllergy resource profile.</p>
 
   
 
-</div>
 
+  <!-- insert intro if present -->
+  
+
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource &quot;MyPeanutAllergy&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-FoodAllergy.html">Food Allergy</a></p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Unconfirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>#unconfirmed)</span></p><p><b>code</b>: Allergy to peanut <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#91935009)</span></p><p><b>patient</b>: <span>: Paul Peters</span></p><p><b>recordedDate</b>: 2021-07-28</p><p><b>recorder</b>: <span>: Daniel Davis</span></p><p><b>asserter</b>: <span>: Paul Peters</span></p></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -248,29 +236,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){

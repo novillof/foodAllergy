@@ -11,7 +11,7 @@
   "title": "Food Allergies FHIR Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-02-27T22:59:15+00:00",
+  "date": "2022-02-27T23:28:32+00:00",
   "publisher": "myself",
   "contact": [
     {
@@ -367,6 +367,17 @@
         },
         "name": "Food Allergy Logical Model",
         "description": "Food Allergy information model"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AllergyIntolerance"
+          }
+        ],
+        "reference": {
+          "reference": "AllergyIntolerance/MyPeanutAllergy"
+        }
       },
       {
         "extension": [
