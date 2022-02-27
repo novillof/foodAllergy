@@ -1,13 +1,18 @@
 ﻿FoodAllergyIG : Validation Results
 =========================================
 
-err = 1, warn = 1, info = 0
+err = 3, warn = 2, info = 0
 IG Publisher Version: 1.1.108
-Generated Sun Feb 27 22:29:11 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.food-Allergy#0.1.0-test (canonical = http://xxsomewhere.org/fhir/food-Allergy)
+Generated Sun Feb 27 22:36:00 UTC 2022. FHIR version 4.0.1 for xxexample.fhir.food-Allergy#0.1.0-test (canonical = http://xxsomewhere.org/fhir/food-Allergy)
  Build Errors : 0 / 1 / 0
- /github/workspace/input/food-allergy : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 3 / 1 / 1
+ /github/workspace/input/food-allergy : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be xxexample.fhir.food-Allergy
+== fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergyModel'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel.json - the canonical URL (http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergyModel) does not match the URL (http://example.com/fhir/example/StructureDefinition/FoodAllergyModel)
+ERROR: StructureDefinition/FoodAllergyModel: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/FoodAllergyModel: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel: URL Mismatch http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergyModel vs http://example.com/fhir/example/StructureDefinition/FoodAllergyModel
 == input/food-allergy.xml ==
-ERROR: ImplementationGuide/food-Allergy: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
