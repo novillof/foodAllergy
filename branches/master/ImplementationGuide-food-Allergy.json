@@ -11,7 +11,7 @@
   "title": "Food Allergies FHIR Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-02-27T22:29:00+00:00",
+  "date": "2022-02-27T22:35:49+00:00",
   "publisher": "myself",
   "contact": [
     {
@@ -352,6 +352,21 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/FoodAllergyModel"
+        },
+        "name": "Food Allergy Logical Model",
+        "description": "Food Allergy information model"
       }
     ],
     "page": {
