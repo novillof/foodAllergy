@@ -9,10 +9,10 @@
   <url value="http://xxsomewhere.org/fhir/food-Allergy/ImplementationGuide/food-Allergy"/>
   <version value="0.1.0-test"/>
   <name value="FoodAllergyIG"/>
-  <title value="Food Allergies Implementation Guide"/>
+  <title value="Food Allergies FHIR Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-02-27T18:52:24+00:00"/>
+  <date value="2022-02-27T18:57:49+00:00"/>
   <publisher value="myself"/>
   <contact>
     <telecom>
