@@ -1,0 +1,19 @@
+{
+  "url" : "http://xxsomewhere.org/fhir/food-Allergy/ImplementationGuide/food-Allergy",
+  "name" : "FoodAllergyIG",
+  "title" : "Food Allergies FHIR Implementation Guide",
+  "description" : "Test IG about food allergies",
+  "status" : "draft",
+  "package-id" : "xxexample.fhir.food-Allergy",
+  "ig-ver" : "0.1.0-test",
+  "date" : "Tue, 08 Jul, 2025 08:51:18 +0000",
+  "dateISO8601" : "2025-07-08T08:51:18+00:00",
+  "errs" : 7,
+  "warnings" : 9,
+  "hints" : 1,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1002385912
+}

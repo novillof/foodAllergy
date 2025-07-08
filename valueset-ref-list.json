@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.com/fhir/example/ValueSet/FoodAllergyVS",
+      "version" : "0.1.0-test",
+      "status" : "active",
+      "name" : "FoodAllergyVS",
+      "title" : "Food Allergies",
+      "description" : "Main Food allergies.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-FoodAllergy.html" : "Food Allergy"
+    }
+  ]
+}

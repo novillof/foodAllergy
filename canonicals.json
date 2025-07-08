@@ -1,0 +1,30 @@
+[
+  {
+    "id" : "FoodAllergy",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/FoodAllergy",
+    "version" : "0.1.0-test",
+    "name" : "FoodAllergy"
+  },
+  {
+    "id" : "FoodAllergyModel",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/FoodAllergyModel",
+    "version" : "0.1.0-test",
+    "name" : "FoodAllergyModel"
+  },
+  {
+    "id" : "FoodAllergyVS",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/FoodAllergyVS",
+    "version" : "0.1.0-test",
+    "name" : "FoodAllergyVS"
+  },
+  {
+    "id" : "food-Allergy",
+    "type" : "ImplementationGuide",
+    "url" : "http://xxsomewhere.org/fhir/food-Allergy/ImplementationGuide/food-Allergy",
+    "version" : "0.1.0-test",
+    "name" : "FoodAllergyIG"
+  }
+]

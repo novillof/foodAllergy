@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://xxsomewhere.org/fhir/food-Allergy/ValueSet/FoodAllergyVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "FoodAllergyVS"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet FoodAllergyVS</b></p><a name=\"FoodAllergyVS\"> </a><a name=\"hcFoodAllergyVS\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/91935009\">91935009</a></td><td>Allergy to peanut</td></tr><tr><td><a href=\"http://snomed.info/id/48821000119104\">48821000119104</a></td><td>Allergy to tree nut</td></tr><tr><td><a href=\"http://snomed.info/id/782555009\">782555009</a></td><td>Allergy to cow's milk protein</td></tr><tr><td><a href=\"http://snomed.info/id/213020009\">213020009</a></td><td>Allergy to egg protein</td></tr><tr><td><a href=\"http://snomed.info/id/417532002\">417532002</a></td><td>Allergy to fish</td></tr><tr><td><a href=\"http://snomed.info/id/300913006\">300913006</a></td><td>Allergy to shellfish</td></tr><tr><td><a href=\"http://snomed.info/id/782594005\">782594005</a></td><td>Allergy to soy protein</td></tr><tr><td><a href=\"http://snomed.info/id/260167008\">260167008</a></td><td>Sesame seed</td></tr><tr><td><a href=\"http://snomed.info/id/21191000122102\">21191000122102</a></td><td>Allergy to mustard</td></tr><tr><td><a href=\"http://snomed.info/id/712843002\">712843002</a></td><td>Allergy to celery</td></tr><tr><td><a href=\"http://snomed.info/id/782575000\">782575000</a></td><td>Allergy to lupine seed</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "http://example.com/fhir/example/ValueSet/FoodAllergyVS"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0-test"] ; # 
+  fhir:name [ fhir:v "FoodAllergyVS"] ; # 
+  fhir:title [ fhir:v "Food Allergies"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-07-08T08:50:37+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "fnovillo"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "mailto:fnovper@gmail.com" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Main Food allergies."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "91935009" ] ;
+         fhir:display [ fhir:v "Allergy to peanut" ]
+       ] [
+         fhir:code [ fhir:v "48821000119104" ] ;
+         fhir:display [ fhir:v "Allergy to tree nut" ]
+       ] [
+         fhir:code [ fhir:v "782555009" ] ;
+         fhir:display [ fhir:v "Allergy to cow's milk protein" ]
+       ] [
+         fhir:code [ fhir:v "213020009" ] ;
+         fhir:display [ fhir:v "Allergy to egg protein" ]
+       ] [
+         fhir:code [ fhir:v "417532002" ] ;
+         fhir:display [ fhir:v "Allergy to fish" ]
+       ] [
+         fhir:code [ fhir:v "300913006" ] ;
+         fhir:display [ fhir:v "Allergy to shellfish" ]
+       ] [
+         fhir:code [ fhir:v "782594005" ] ;
+         fhir:display [ fhir:v "Allergy to soy protein" ]
+       ] [
+         fhir:code [ fhir:v "260167008" ] ;
+         fhir:display [ fhir:v "Sesame seed" ]
+       ] [
+         fhir:code [ fhir:v "21191000122102" ] ;
+         fhir:display [ fhir:v "Allergy to mustard" ]
+       ] [
+         fhir:code [ fhir:v "712843002" ] ;
+         fhir:display [ fhir:v "Allergy to celery" ]
+       ] [
+         fhir:code [ fhir:v "782575000" ] ;
+         fhir:display [ fhir:v "Allergy to lupine seed" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

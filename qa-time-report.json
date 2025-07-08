@@ -1,0 +1,256 @@
+{
+  "date" : "Tue, 08 Jul, 2025 08:51:18 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/input/food-allergy.xml",
+      "size" : 4374,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 31
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 41,
+          "length" : 14
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 110
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 8925
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 78
+        },
+        {
+          "activity" : "generate2",
+          "start" : 54,
+          "length" : 67
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 61,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 64,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json",
+      "size" : 1062,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 21
+        },
+        {
+          "activity" : "scan",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 69
+        },
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 329
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 54,
+          "length" : 17
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-FoodAllergy.json",
+      "size" : 3114,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 34
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 41,
+          "length" : 74
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 108
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 464
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 194
+        },
+        {
+          "activity" : "generate2",
+          "start" : 54,
+          "length" : 837
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 819
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 61,
+          "length" : 18
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 64,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-FoodAllergyModel.json",
+      "size" : 5494,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 41
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 24
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 41,
+          "length" : 43
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 34
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 88
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 85
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 193
+        },
+        {
+          "activity" : "generate2",
+          "start" : 58,
+          "length" : 102
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 61,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-FoodAllergyVS.json",
+      "size" : 1522,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 41,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 14
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 280
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 1007
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1706
+        }
+      ]
+    }
+  ]
+}

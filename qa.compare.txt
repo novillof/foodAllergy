@@ -1,0 +1,36 @@
+FoodAllergyIG : Validation Results
+=========================================
+
+err = 7, warn = 9, info = 1
+$--
+Generated $--. FHIR version $-- for xxexample.fhir.food-Allergy#$-- (canonical = http://xxsomewhere.org/fhir/food-Allergy)
+ Build Errors : 1 / 6 / 0
+ /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 2 / 2 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS : 2 / 1 / 1
+ /github/workspace/input/food-allergy : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be xxexample.fhir.food-Allergy
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource AllergyIntolerance/MyPeanutAllergy.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
+== fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergy'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy.json - the canonical URL (http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergy) does not match the URL (http://example.com/fhir/example/StructureDefinition/FoodAllergy)
+INFORMATION: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[27].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty' to 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty|5.2.0'
+WARNING: StructureDefinition/FoodAllergy: StructureDefinition.differential.element[10].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty' to 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty|5.2.0'
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy: URL Mismatch http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergy vs http://example.com/fhir/example/StructureDefinition/FoodAllergy
+== fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/FoodAllergyModel'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel.json - the canonical URL (http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergyModel) does not match the URL (http://example.com/fhir/example/StructureDefinition/FoodAllergyModel)
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel: URL Mismatch http://xxsomewhere.org/fhir/food-Allergy/StructureDefinition/FoodAllergyModel vs http://example.com/fhir/example/StructureDefinition/FoodAllergyModel
+== fsh-generated/resources/ValueSet-FoodAllergyVS.json ==
+ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ValueSet/FoodAllergyVS'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS.json - the canonical URL (http://xxsomewhere.org/fhir/food-Allergy/ValueSet/FoodAllergyVS) does not match the URL (http://example.com/fhir/example/ValueSet/FoodAllergyVS)
+WARNING: ValueSet/FoodAllergyVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS: URL Mismatch http://xxsomewhere.org/fhir/food-Allergy/ValueSet/FoodAllergyVS vs http://example.com/fhir/example/ValueSet/FoodAllergyVS
+== input/food-allergy.xml ==
