@@ -12,12 +12,12 @@
   <title value="Food Allergies FHIR Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <publisher value="myself"/>
+  <publisher value="fnovillo"/>
   <contact>
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="http://xxhl7.org/Special/committees/[something]"/>
+      <value value="mailto:fnovper@gmail.com"/>
     </telecom>
   </contact>
   <description value="Test IG about food allergies"/>
@@ -66,7 +66,7 @@
     <!-- copyright year is a mandatory parameter -->
     <parameter>
       <code value="copyrightyear"/>
-      <value value="2019+"/>
+      <value value="2025+"/>
     </parameter>
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>

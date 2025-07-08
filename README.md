@@ -1,13 +1,13 @@
-Empty IG
+Food Allergy IG TEST
 ---
-This is an empty IG
+This is a sample food allergy IG
 <br> </br>
 ###
 ### Publication
 This ImplementationGuide is published in the following locations:
 
 Continuous Build: __http://build.fhir.org/ig/openhie/fhir-ig-empty/branches/main/index.html__  
-Canonical / permanent URL: 
+Canonical / permanent URL: https://novillof.github.io/foodAllergy/index.html 
 <br> </br>
 
 ### Issues
