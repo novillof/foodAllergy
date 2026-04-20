@@ -1,0 +1,30 @@
+# xxexample.fhir.food-Allergy#0.1.0-test: Food Allergies FHIR Implementation Guide
+
+## Pages
+
+* [MyIG Home Page](index.md)
+* [IG Change History](changes.md)
+* [Food allergy - Introduction](intro.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Food Allergies](ValueSet-FoodAllergyVS.md)
+
+### Logicals
+
+* [Food Allergy Logical Model](StructureDefinition-FoodAllergyModel.md)
+
+### Resource Profiles
+
+* [Food Allergy](StructureDefinition-FoodAllergy.md)
+
+### AllergyIntolerances
+
+* [MyPeanutAllergy](AllergyIntolerance-MyPeanutAllergy.md)
+
+### ImplementationGuides
+
+* [Food Allergies FHIR Implementation Guide](index.md)

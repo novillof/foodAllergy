@@ -1,0 +1,15 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/input/food-allergy.xml	4374	-	0	0	0	0	0	0	8	77	0	0	0	0	0	0	0	0	0	0	51	44	0	0	0	3	0	1
+fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json	1062	4	0	0	0	0	0	0	0	59	0	0	0	0	0	0	0	0	0	0	7	8	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-FoodAllergy.json	3114	2	0	31	1	0	0	0	0	92	0	0	1	0	0	0	0	1	0	0	166	808	0	0	0	9	1	1
+fsh-generated/resources/StructureDefinition-FoodAllergyModel.json	5494	3	0	14	1	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	62	120	0	0	0	4	0	0
+fsh-generated/resources/ValueSet-FoodAllergyVS.json	1522	1	0	0	0	0	0	0	1	155	0	0	0	0	0	0	0	0	0	0	9	121	0	0	0	1	0	0
+/input/includes/menu.xml	700	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/fsh-generated/includes/fsh-link-references.md	217	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.xml	2091	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	26	0	0	0	0	0	0
+/input/pagecontent/intro.md	812	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/changes.xml	457	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	3483	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
